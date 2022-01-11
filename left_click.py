@@ -26,6 +26,8 @@ if (mouse == 0):
     print("No mouse found")
     exit(0)
 
+# 鼠标14可以用
+mouse = 14
 
 # we create a new mouse stroke, initially we use set right button down, we also use absolute move,
 # and for the coordinate (x and y) we use center screen
