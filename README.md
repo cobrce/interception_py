@@ -1,6 +1,9 @@
 # interception_py
 This is a port (not a [wrapper][wrp]) of [interception][c_ception] dll to python, it communicates directly with interception's driver
 
+### 安装驱动
+Interception.zip
+
 ### why not using the wrapper?
 * it's very slow and some strokes are lost
 * fast strokes made python crash (some heap allocation errors)
