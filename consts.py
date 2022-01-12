@@ -42,6 +42,8 @@ class interception_mouse_state (Enum):
 
     INTERCEPTION_MOUSE_WHEEL = 0x400
     INTERCEPTION_MOUSE_HWHEEL = 0x800
+    
+    INTERCEPTION_MOUSE_MOVE = 0x1000
 
 class interception_filter_mouse_state(Enum):
     INTERCEPTION_FILTER_MOUSE_NONE = 0x0000
