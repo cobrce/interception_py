@@ -5,7 +5,7 @@ from win32api import GetSystemMetrics
 
 #%%
 # 需要点击的坐标
-x, y = 32, 32
+x, y = 320, 200
 screen_width = GetSystemMetrics(0)
 screen_height = GetSystemMetrics(1)
 

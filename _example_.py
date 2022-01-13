@@ -6,6 +6,7 @@ if __name__ == "__main__":
     c.set_filter(interception.is_keyboard,interception_filter_key_state.INTERCEPTION_FILTER_KEY_UP.value)
     while True:
         device = c.wait()
+        print('Device: %d' % device)
         stroke = c.receive(device)
         if type(stroke) is key_stroke:
             print(stroke.code)

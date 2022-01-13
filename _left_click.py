@@ -4,7 +4,7 @@ from win32api import GetSystemMetrics
 #%%
 # 需要点击的坐标
 # x,y = 553,337
-x,y = 513,110
+x,y = 23,303
 # x,y = 554,82
 # get screen size
 screen_width = GetSystemMetrics(0)
@@ -27,7 +27,7 @@ if (mouse == 0):
     exit(0)
 
 # 鼠标14可以用
-mouse = 14
+mouse = 11
 
 # we create a new mouse stroke, initially we use set right button down, we also use absolute move,
 # and for the coordinate (x and y) we use center screen
