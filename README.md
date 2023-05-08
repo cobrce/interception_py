@@ -1,3 +1,4 @@
+# This repository is unmaintained since 2019, check this [pyintercept][frk] by Kenny Hommel for an up to date version
 # interception_py
 This is a port (not a [wrapper][wrp]) of [interception][c_ception] dll to python, it communicates directly with interception's driver
 
@@ -26,3 +27,4 @@ if __name__ == "__main__":
 
 [wrp]: https://github.com/cobrce/interception_wrapper
 [c_ception]: https://github.com/oblitum/Interception
+[frk]: https://github.com/kennyhml/pyintercept
