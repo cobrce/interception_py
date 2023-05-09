@@ -1,4 +1,4 @@
-# This repository is unmaintained since 2019, check this [pyintercept][frk] by Kenny Hommel for an up to date version
+# This repository is unmaintained since 2019, check [pyintercept][frk] by Kenny Hommel for an up to date version
 # interception_py
 This is a port (not a [wrapper][wrp]) of [interception][c_ception] dll to python, it communicates directly with interception's driver
 
